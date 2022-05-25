@@ -19,6 +19,8 @@ Now try ⲉⲝⲟⲩⲥⲓⲁ (direct link [here](https://coptic-dictionary.org/
 You can also try ϩⲏⲧ (direct link [here](https://coptic-dictionary.org/results.cgi?quick_search=%CF%A9%E2%B2%8F%E2%B2%A7))
   * What happens when you click "Include Related Entries"
 
+In any entry: Click on the RED C icon.  This is the icon for the search tool for our digital corpus (ANNIS).  You will get the results for all the matching lemmas for ϣⲏⲣⲉ in our corpora.  Take a look.
+
 **Be sure to check out the search tips on [the "How To" page](https://corpling.uis.georgetown.edu/coptic-dictionary/help.cgi).** Play around with searches for words containing particular suffixes, prefixes, or character strings.
   * Try a search for ⲟ.ⲉ
   * Compare that to results for ⲟ.*ⲉ
@@ -28,5 +30,4 @@ You can even search translations.  Forget what the Coptic word for "river" is?
   * Or go to the Dictionary home page and try typing "river" into the Translation box.
   * You can search translations in English, French, and German
 
-In any entry: Click on the RED C icon.  This is the icon for the search tool for our digital corpus (ANNIS).  You will get the results for all the matching lemmas for ϣⲏⲣⲉ in our corpora.  Take a look.
  

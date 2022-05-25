@@ -132,8 +132,9 @@ You can even search for verbs that are Greek loanwords and that have a first per
 
 We also annotate for entities! We have ten entity classes:
 
-![entities](https://github.com/CopticScriptorium/NAPS2022/raw/master/entities.png)
+![entities](https://github.com/CopticScriptorium/NAPS2022/raw/main/entities.png)
 
+Try searching for [all animals in the AP](https://corpling.uis.georgetown.edu/annis/?id=3d7071de-024e-4077-972d-cb4157cbcc9d). (Query is entity="animal").
 
 ## <a name="freq"></a>Word Frequencies
 ANNIS allows you to find word frequency lists for our corpora.

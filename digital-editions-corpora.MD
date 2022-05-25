@@ -2,7 +2,7 @@
 
 What are digital editions and digitized text corpora?  This tutorial will generate a discussion about the research purposes of digital editions and the how those research purposes guide the structure and formation of digitized corpora.  
 
-## NOTE: The links below are live. We recommend you right-click or command-click to open links in new windows, so you can keep this window open and available.
+### NOTE: The links below are live. We recommend you right-click or command-click to open links in new windows, so you can keep this window open and available.
 
 ## Introduction
 

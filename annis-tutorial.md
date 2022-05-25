@@ -126,31 +126,31 @@ finds all verbs that are Greek loanwords; `lang="Greek" _o_ pos="V"` ([link](htt
 
 Our corpora are all parsed for dependency syntax. (See https://universaldependencies.org/cop/ for details.) That means you can search for things like all the subjects of a certain verb.
 
-For example, you can search for verbs that have a first person subject:  pos="V" ->dep[func="nsubj"] lemma="ⲁⲛⲟⲕ" (direct link [here](https://corpling.uis.georgetown.edu/annis/?id=afa909c2-f1f1-4c1c-b877-9c2cca4b0368))
+**:arrow_right:9. Let's search for verbs that have a first person subject. Copy the query into ANNIS and select your corpus/corpora: pos="V" ->dep[func="nsubj"] lemma="ⲁⲛⲟⲕ" (direct link [here](https://corpling.uis.georgetown.edu/annis/?id=afa909c2-f1f1-4c1c-b877-9c2cca4b0368))
 
-You can even search for verbs that are Greek loanwords and that have a first person subject: lang=‎"Greek‎" _o_ pos="V" ->dep[func="nsubj"] lemma="ⲁⲛⲟⲕ" (direct link [here](https://corpling.uis.georgetown.edu/annis/?id=151b6687-2beb-4c9a-b5ef-d2bad47d0dc7))
+You can even search for verbs that are Greek loanwords and that have a first person subject: lang="Greek" _o_ pos="V" ->dep[func="nsubj"] lemma="ⲁⲛⲟⲕ" (direct link [here](https://corpling.uis.georgetown.edu/annis/?id=151b6687-2beb-4c9a-b5ef-d2bad47d0dc7))
 
 We also annotate for entities! We have ten entity classes:
 
 ![entities](https://github.com/CopticScriptorium/NAPS2022/raw/main/entities.png)
 
-Try searching for [all animals in the AP](https://corpling.uis.georgetown.edu/annis/?id=3d7071de-024e-4077-972d-cb4157cbcc9d). (Query is entity="animal").
+**:arrow_right:10. Try searching for [all animals in the AP](https://corpling.uis.georgetown.edu/annis/?id=3d7071de-024e-4077-972d-cb4157cbcc9d). (Query is entity="animal").
 
 ## <a name="freq"></a>Word Frequencies
 ANNIS allows you to find word frequency lists for our corpora.
 
-**:arrow_right:1. Try it: Select the shenoute.eagerness corpus.**
+**:arrow_right:11. Try it: Select the shenoute.eagerness corpus.**
   * type in the following query to find all the lemmas in the corpus:  lemma
   * Click Search
   * Below the query window, you should see a button for "More."  Click on it and select "Frequency Analysis."  Click "Perform Frequency Analysis"
   * Both a chart and a list of word frequencies will appear.
   * You can see your frequencies on a [linear scale or a log scale](http://www.fool.com/foolfaq/foolfaqcharts.htm)
 
-**:arrow_right:2. Try it: Download your frequency list by clicking the "Download as CSV" button**
+**:arrow_right:12. Try it: Download your frequency list by clicking the "Download as CSV" button**
 
 You can also produce frequencies for more refined lists. **_Be sure to close the "Frequency Analysis" pane to clear your data before you start a new analysis._**
 
-**:arrow_right:3. Try it: Create lists for loan words in our corpus.**
+**:arrow_right:13. Try it: Create lists for loan words in our corpus.**
 
   **Remember: If you have just run a frequency analysis, then close the current "Frequency Analysis" pane first.  Do this (or click "new analysis") between each new frequency analysis.**
   
@@ -165,7 +165,7 @@ You can also produce frequencies for more refined lists. **_Be sure to close the
 
   ![Image of metadata-witness](https://github.com/CopticScriptorium/NAPS2017/raw/master/images/metadata-witness.png)
 
-**:arrow_right:4. Try it: Run a freqency analysis using the following query: `lang=/.*/ _o_ norm _o_ pos="V" & meta::redundant="no"`**
+**:arrow_right:14. Try it: Run a freqency analysis using the following query: `lang=/.*/ _o_ norm _o_ pos="V" & meta::redundant="no"`**
   * Remember to click "new analysis" to clear your old frequency data first!
   * Remember to delete rows for everything except norm when you run the analysis.
   * Are the results _different_ from the results from #3 above?
@@ -178,7 +178,7 @@ We encourage all researcher to keep records of their research in ANNIS.  This in
 
 There are multiple ways you can download the results of your query by clicking More > Export underneath the query panel.  Each way or format works well for a different discipline or research objective.  For most people who work with texts as philologists, historians, or religious studies scholars, we recommend using the GridExporter.  The GridExporter allows you to tell ANNIS which annotations and which metadata you want to export.
 
-**:arrow_right:Try it: Run a query ([such as this one](https://corpling.uis.georgetown.edu/annis/?id=ad9787db-c777-465f-8c39-a8f1b661ebca)) and download your results.**
+**:arrow_right:15. Try it: Run a query ([such as this one](https://corpling.uis.georgetown.edu/annis/?id=ad9787db-c777-465f-8c39-a8f1b661ebca)) and download your results.**
   * Run the query
   * Click "More" > "Export"
   * In the Exporter dropdown menu select GridExporter
@@ -192,13 +192,13 @@ There are multiple ways you can download the results of your query by clicking M
 
 ## <a name="cite"></a>Citing and Linking to Your Data
 
-When researching our corpora for a future publication, please note the date and version number of the documents or corpora while you are conducting your research.  (This information is in the corpus and document metadata accessed via the information button(s) for each corpus and each document within a corpus.)  We update our corpora regularly and recommend all citations include the version number and date of the resources used, as described below. (If you conducted research in the past and did not note the version and date of the corpus at that time, then please cite the date you accessed the corpus.)
+When researching our corpora for a future publication, **please note the date and version number of the documents or corpora while you are conducting your research**.  (This information is in the corpus and document metadata accessed via the information button(s) for each corpus and each document within a corpus.)  We update our corpora regularly and recommend all citations include the version number and date of the resources used, as described below. (If you conducted research in the past and did not note the version and date of the corpus at that time, then please cite the date you accessed the corpus.)
 
 We have [Citation Guidelines](http://copticscriptorium.org/citation-guidelines.html) with examples for how to cite the project, the project site, individual corpora, and individual documents in your bibliography and footnotes.  If you are using documents or queries on only one corpus, then you may cite only that corpus. 
 
 When citing more than one corpus, we recommend citing the corpora and versions of each corpus used.
 
-You can save a link to a query or even to a query result.
+### You can save a link to a query or even to a query result.
 
 ![screenshot of linking to query](https://github.com/CopticScriptorium/NAPS2017/raw/master/images/link-to-query.png)
 
@@ -214,6 +214,6 @@ Some DH researchers recommend providing access to your data when you publish you
   2.  Download your query results using the [process described above](#download) and post them on your own site; link to them in your publication.
   3.  Link to your query on our ANNIS site.
 
-_Important note:  the URLs for the query and result links are stable, but the core text data may change if we update the corpus or documents you are querying.  We update regularly to add more documents to a corpus, to add new annotations, or to make corrections.  **We encourage all researchers to download query results and cite the version number(s)and date(s) of the data used.**_
+_Important note:  the URLs for the query and result links should remain stable, but the core text data may change if we update the corpus or documents you are querying.  We update regularly to add more documents to a corpus, to add new annotations, or to make corrections.  **We encourage all researchers to download query results and cite the version number(s)and date(s) of the data used.**_
     
 

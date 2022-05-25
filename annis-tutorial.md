@@ -13,6 +13,7 @@ This tutorial will:
   * [introduce you to our documents and corpora in ANNIS](#corpus)
   * [show you how to perform simple word searches](#search)
   * [show you how to perform more complex searches for annotations and metadata](#complex)
+  * [provide you with sample queries for entities and dependency syntax](#parsing)
   * [demonstrate how to generate word frequency lists](#freq)
   * [show you how to download search/query results](#download)
   * [provide models for citing or linking to the data in your publications](#cite)
@@ -124,7 +125,7 @@ There's lots of fun stuff you can do with regular expressions and the ANNIS Quer
 *Know your corpus and annotations when doing research.  For example, in our corpus, a compound word containing both Greek and Coptic contains a language tag only for the Greek morph within the compound. (E.g., in ⲣⲭⲣⲉⲓⲁ, only ⲭⲣⲉⲓⲁ receives the Greek tag. Hence, we use syntax for finding overlapping search fields ("o") rather than equivalent fields ("="). `lang="Greek" _=_ pos="V"` ([link](https://corpling.uis.georgetown.edu/annis/?id=dc1b4bdf-6d0e-407e-9c27-80265da4f58a))
 finds all verbs that are Greek loanwords; `lang="Greek" _o_ pos="V"` ([link](https://corpling.uis.georgetown.edu/annis/?id=b40a6020-3be6-4f25-bb38-97d64ce6ac79)) finds all verbs that are Greek loanwords or are compound words with Greek loan words as part of the compound.  Compare the results in the links.* 
 
-## Parsing (Dependency Syntax) and Entities in Complex Searches
+## <a href="parsing"></a>Parsing (Dependency Syntax) and Entities in Complex Searches
 
 Our corpora are all parsed for dependency syntax. (See https://universaldependencies.org/cop/ for details.) That means you can search for things like all the subjects of a certain verb.
 
@@ -137,6 +138,11 @@ We also annotate for entities! We have ten entity classes:
 ![entities](https://github.com/CopticScriptorium/NAPS2022/raw/main/entities.png)
 
 **:arrow_right:10. Try searching for [all animals in the AP](https://corpling.uis.georgetown.edu/annis/?id=3d7071de-024e-4077-972d-cb4157cbcc9d). (Query is entity="animal").
+
+Some other sample queries:
+  * entity ->head pos="ART" searches for entities headed by articles
+  * entity="place" _i_ lang="Greek" searches for places containing Greek loan words in their place names
+
 
 ## <a name="freq"></a>Word Frequencies
 ANNIS allows you to find word frequency lists for our corpora.

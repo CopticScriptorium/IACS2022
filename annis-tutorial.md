@@ -1,5 +1,7 @@
 # ANNIS Tutorial
 
+### NOTE: The links below are live. We recommend you right-click or command-click to open links in new windows, so you can keep this window open and available.
+
 ## <a name="intro"></a>Introduction to ANNIS
 Coptic Scriptorium uses the [ANNIS](http://corpus-tools.org/annis/) search and visualization tool. You can access Coptic Scriptorium's corpora in ANNIS in multiple ways:
 * Go 

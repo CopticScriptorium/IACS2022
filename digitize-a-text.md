@@ -1,8 +1,12 @@
 # Digitize and Annotate a Text Using Coptic Scriptorium's GitDox Tool and Natural Language Processing Tools
 
+### NOTE: The links below are live. We recommend you right-click or command-click to open links in new windows, so you can keep this window open and available.
+
+## Introduction
+
 In this tutorial, you will learn how to digitize and annotate a short Coptic text using our GitDox tool and NLP tools.  For participants in the NAPS workshop, we will provide a text and all the other necessary materials.  Check with the facilitators.  In groups of 2-4 people, you will transcribe a text and provide basic paleographic/manuscript encoding.
 
-For more detailed documentation, visit our [wiki](http://wiki.copticscriptorium.org/doku.php?id=gitdox_workflow); some of this tutorial is taken from that documentation.
+For more detailed documentation, visit our [documentation page](https://copticscriptorium.org/documentation) and [wiki](http://wiki.copticscriptorium.org/doku.php?id=gitdox_workflow); some of this tutorial is taken from that documentation.
 
 If you want to digitize a specific text for inclusion in the Coptic Scriptorium corpora and database, we would like to collaborate with you. Please contact us!
 
